@@ -1,0 +1,129 @@
+.sp-page {
+  min-height: 100vh;
+  background: #f0f4ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.sp-card {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 8px 40px rgba(67, 97, 238, 0.12);
+  border: 1px solid rgba(124, 90, 237, 0.12);
+  padding: 56px 40px;
+  text-align: center;
+  max-width: 520px;
+  width: 100%;
+}
+
+.sp-icon-wrap {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(34,197,94,0.12), rgba(34,197,94,0.18));
+  border: 2px solid rgba(34,197,94,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: #22c55e;
+  margin: 0 auto 24px;
+}
+
+.sp-title {
+  font-family: 'Sarpanch', sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 12px;
+}
+
+.sp-subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+.sp-ref {
+  background: rgba(124,90,237,0.06);
+  border: 1px solid rgba(124,90,237,0.15);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 32px;
+}
+
+.sp-ref-label {
+  font-family: 'Share Tech', sans-serif;
+  font-size: 12px;
+  color: #7C5AED;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin-bottom: 4px;
+}
+
+.sp-ref-value {
+  font-family: 'Sarpanch', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+.sp-next-steps {
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.sp-next-title {
+  font-family: 'Share Tech', sans-serif;
+  font-size: 13px;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.sp-step-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.sp-step-num {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7C5AED, #4361ee);
+  color: #fff;
+  font-family: 'Share Tech', sans-serif;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.sp-step-text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  color: #444;
+  padding-top: 3px;
+  line-height: 1.5;
+}
+
+.sp-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+  .sp-card { padding: 36px 24px; }
+  .sp-title { font-size: 22px; }
+}

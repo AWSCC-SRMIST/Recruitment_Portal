@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f0f4ff;
+  color: #1a1a2e;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background: #e8edf8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #7C5AED, #4361ee);
+  border-radius: 3px;
+}
+
+/* Typography utilities */
+.font-sarpanch { font-family: 'Sarpanch', sans-serif; }
+.font-share-tech { font-family: 'Share Tech', sans-serif; }
+.font-raleway { font-family: 'Raleway', sans-serif; }
+.font-michroma { font-family: 'Michroma', sans-serif; }
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #7C5AED, #4361ee);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Primary button */
+.btn-primary-acc {
+  background: linear-gradient(135deg, #7C5AED, #4361ee);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 32px;
+  font-family: 'Share Tech', sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 15px rgba(124, 90, 237, 0.35);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.btn-primary-acc:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(124, 90, 237, 0.5);
+  color: #fff;
+}
+
+/* Secondary button */
+.btn-secondary-acc {
+  background: transparent;
+  color: #7C5AED;
+  border: 2px solid #7C5AED;
+  border-radius: 50px;
+  padding: 10px 28px;
+  font-family: 'Share Tech', sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.btn-secondary-acc:hover {
+  background: #7C5AED;
+  color: #fff;
+}
+
+/* White card */
+.acc-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(67, 97, 238, 0.08);
+  border: 1px solid rgba(124, 90, 237, 0.1);
+}
+
+/* Error text */
+.field-error {
+  color: #e53e3e;
+  font-size: 12px;
+  margin-top: 4px;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
